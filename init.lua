@@ -18,6 +18,5 @@ end
 
 dofile(vim.g.base46_cache .. "defaults")
 vim.opt.rtp:prepend(lazypath)
-vim.cmd(":set relativenumber")
 vim.cmd('hi Normal guibg=NONE ctermbg=NONE')
 require "plugins"
