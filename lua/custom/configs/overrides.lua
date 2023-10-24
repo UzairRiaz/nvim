@@ -63,7 +63,7 @@ M.copilot = {
   suggestion = {
     auto_trigger = true,
     keymap = {
-      accept = "<C-Tab>",
+      accept = "<Tab>",
     }
   },
 }
