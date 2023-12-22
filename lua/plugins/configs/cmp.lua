@@ -1,4 +1,5 @@
 local cmp = require "cmp"
+local luasnip = require "luasnip"
 
 dofile(vim.g.base46_cache .. "cmp")
 
