@@ -12,6 +12,8 @@ sudo tar -C /opt -xzf nvim-linux64.tar.gz
 rm -rf nvim-linux64.tar.gz
 export PATH=$PATH:/opt/nvim-linux64/bin
 
+# install xclip
+sudo apt-get install xclip -y
 
 # wget nerd fort and unzip it to ~/.fonts
 mkdir -p ~/.fonts
